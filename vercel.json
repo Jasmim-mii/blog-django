@@ -2,12 +2,9 @@
 {
   "routes": [
     {
-      "src": "/posts/(.*)",
+      "src": "/posts/templates/posts(.*)",
       "dest": "api/wsgi.py"
     },
-    {
-      "src": "/(.*)",
-      "dest": "api/wsgi.py"
-    }
+   
   ]
 }
