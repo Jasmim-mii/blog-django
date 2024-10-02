@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "your_django_app.wsgi:application"
+      "dest": "blog.wsgi:application"
     }
   ]
 }
