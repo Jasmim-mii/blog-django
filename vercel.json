@@ -2,7 +2,7 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/posts/templates/posts/(.*)",
       "dest": "blog.wsgi:application"
     }
   ]
